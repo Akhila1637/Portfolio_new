@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://budidhathrun.github.io/personal-website",
+  "homepage": "https://Akhila1637.github.io/personal-website",
   "scripts": {
+    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

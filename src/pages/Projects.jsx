@@ -5,6 +5,33 @@ const Projects = () => {
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold text-gray-800 mb-8">Projects</h1>
       <div className="grid md:grid-cols-2 gap-8">
+
+
+      <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="https://res.cloudinary.com/dqhvloxh5/image/upload/v1744215164/nicolas-ladino-silva-o2DVsV2PnHE-unsplash_dswua4.jpg"
+            alt="Project 4"
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-6">
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">NovaCapture</h2>
+            <p className="text-gray-600 mb-4">
+            NovaCapture is an all-in-one platform designed to bridge the gap between clients and photographers, making the process of discovering, booking, and managing photography services seamless and efficient.
+            </p>
+            <div className="flex space-x-4">
+              <a href="https://github.com/Akhila1637/Nova_capture.git" className="text-blue-600 hover:text-blue-800 flex items-center">
+                <Github size={18} className="mr-1" />
+                 Code
+              </a>
+              <a href="https://nova-j9db.vercel.app/" className="text-blue-600 hover:text-blue-800 flex items-center">
+                <ExternalLink size={18} className="mr-1" />
+               Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        
+
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
             src="https://res.cloudinary.com/dkf7alzki/image/upload/v1743916645/Screenshot_55_bjpohg.png"
@@ -18,7 +45,7 @@ const Projects = () => {
              Doctors can manage their appointments. The system includes authentication, search functionality, booking management, and notifications.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/chandu-uias/DoctorAppointment.git" className="text-blue-600 hover:text-blue-800 flex items-center">
+              <a href="https://github.com/Akhila1637/Doctor_Appointment.git" className="text-blue-600 hover:text-blue-800 flex items-center">
                 <Github size={18} className="mr-1" />
                 Code
               </a>
@@ -44,7 +71,7 @@ The platform is built using the MERN stack, which includes ReactJS, NodeJS, Mong
 
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/chandu-uias/Study-Notion-EdTech.git" className="text-blue-600 hover:text-blue-800 flex items-center">
+              <a href="https://github.com/Akhila1637/StudyNotion.git" className="text-blue-600 hover:text-blue-800 flex items-center">
                 <Github size={18} className="mr-1" />
                  Code
               </a>
@@ -55,6 +82,7 @@ The platform is built using the MERN stack, which includes ReactJS, NodeJS, Mong
             </div>
           </div>
         </div>
+
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
             src="https://res.cloudinary.com/dkf7alzki/image/upload/v1743917609/Screenshot_57_wh4ixb.png"
@@ -67,7 +95,7 @@ The platform is built using the MERN stack, which includes ReactJS, NodeJS, Mong
               The application includes user authentication, blog creation, public blog listing with pagination, and blog management features.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/chandu-uias/omnify_task.git" className="text-blue-600 hover:text-blue-800 flex items-center">
+              <a href="https://github.com/Akhila1637/Blogs.git" className="text-blue-600 hover:text-blue-800 flex items-center">
                 <Github size={18} className="mr-1" />
                 Code
               </a>
@@ -78,31 +106,8 @@ The platform is built using the MERN stack, which includes ReactJS, NodeJS, Mong
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="https://res.cloudinary.com/dkf7alzki/image/upload/v1743927847/Screenshot_58_ntjn8n.png"
-            alt="Project 4"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-6">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Sass Platform</h2>
-            <p className="text-gray-600 mb-4">
-            This is a SaaS Plan Management System built enabling users to browse, purchase, and manage SaaS plans using Stripe payment gateway.
-             The platform allows Super Admins to manage plans, Organizations (Admins) to create and manage users, and Users to access the services based on their subscribed plan.
 
-            </p>
-            <div className="flex space-x-4">
-              <a href="https://github.com/chandu-uias/Tensor_sass.git" className="text-blue-600 hover:text-blue-800 flex items-center">
-                <Github size={18} className="mr-1" />
-                 Code
-              </a>
-              <a href="https://tensor-sass.vercel.app/" className="text-blue-600 hover:text-blue-800 flex items-center">
-                <ExternalLink size={18} className="mr-1" />
-               Live Demo
-              </a>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

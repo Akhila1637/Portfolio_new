@@ -2,12 +2,12 @@ import React from 'react';
 
 const experiences = [
   {
-    title: 'Next.js/React Developer',
-    company: 'Krelbuzz Technologies',
-    duration: "Jun '24 — Jul '24",
-    location: 'Remote',
+    title: 'Developer Intern',
+    company: 'Pie Corporate Solutions Pvt Ltd',
+    duration: "May'24 — Jul '24",
+    location: 'onsite',
     description:
-      'Developed a GST-focused web application using React.js, ensuring responsive design and seamless API integration. Used Git for version control, collaborated in a team environment, and debugged and optimized performance issues to enhance user experience.',
+      'Worked Worked as a Developer Intern at Pie Corporate Solutions on a client project, focusing on frontend development using the MERN stack and Tailwind CSS. Built responsive web applications and collaborated with the team to deliver scalable, user-friendly features.as a Developer Intern on a real-world client project, focusing on frontend and middleware using the MERN stack and Tailwind CSS. Built responsive web and mobile applications while collaborating with a team to deliver scalable, user-friendly features. ',
     role: 'Frontend Developer',
   },
   {
@@ -16,8 +16,8 @@ const experiences = [
     duration: "May '24 — Jun '24",
     location: 'Remote',
     description:
-      'Led a team to develop a full-stack application, working on both frontend (HTML, CSS, JavaScript, React.js) and backend (Node.js, Express.js). Improved application interface and optimized server-side performance to enhance responsiveness.',
-    role: 'Frontend Developer & Team Lead',
+      'Contributed to front-end UI design using HTML, CSS, and JavaScript frameworks, and back-end development with Node.js and Express. Used Git and GitHub for version control and collaborative coding.',
+    role: 'Frontend Developer',
   },
 ];
 

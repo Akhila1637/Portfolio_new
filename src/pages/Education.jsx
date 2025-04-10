@@ -19,7 +19,7 @@ const Education = () => {
           </div>
           <div className="flex items-center text-gray-600 mb-4">
              <GraduationCap size={18} className="mr-2" />
-               <span>CGPA: 8.4</span>
+               <span>CGPA: 8.5</span>
           </div>
           <p className="text-gray-600">
 
@@ -38,7 +38,7 @@ const Education = () => {
           </div>
           <div className="flex items-center text-gray-600 mb-4">
              <GraduationCap size={18} className="mr-2" />
-               <span>CGPA: 9.0</span>
+               <span>CGPA: 8.89</span>
           </div>
           <p className="text-gray-600">
             Major in  Mathematics , Physics and Chemistry.
