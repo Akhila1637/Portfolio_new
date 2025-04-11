@@ -23,7 +23,7 @@ const Projects = () => {
                 <Github size={18} className="mr-1" />
                  Code
               </a>
-              <a href="https://nova-j9db.vercel.app/" className="text-blue-600 hover:text-blue-800 flex items-center">
+              <a href="https://nova-capture-x9y8.vercel.app/" className="text-blue-600 hover:text-blue-800 flex items-center">
                 <ExternalLink size={18} className="mr-1" />
                Live Demo
               </a>
